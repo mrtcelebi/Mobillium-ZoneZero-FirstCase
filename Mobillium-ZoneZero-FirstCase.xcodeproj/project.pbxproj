@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0F435F24D9C9AD009EEE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F435E24D9C9AD009EEE15 /* AppDelegate.swift */; };
+		AD0F436124D9C9AD009EEE15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F436024D9C9AD009EEE15 /* SceneDelegate.swift */; };
+		AD0F436324D9C9AD009EEE15 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F436224D9C9AD009EEE15 /* RegisterViewController.swift */; };
+		AD0F436624D9C9AD009EEE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0F436424D9C9AD009EEE15 /* Main.storyboard */; };
+		AD0F436824D9C9AE009EEE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0F436724D9C9AE009EEE15 /* Assets.xcassets */; };
+		AD0F436B24D9C9AE009EEE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0F436924D9C9AE009EEE15 /* LaunchScreen.storyboard */; };
+		AD0F437524D9CC7E009EEE15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437424D9CC7E009EEE15 /* LoginViewController.swift */; };
+		AD0F437824D9DED6009EEE15 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437724D9DED6009EEE15 /* MovieCell.swift */; };
+		AD0F437A24D9DF05009EEE15 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437924D9DF05009EEE15 /* MovieListViewController.swift */; };
+		AD0F437D24D9F4C9009EEE15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437C24D9F4C9009EEE15 /* Constants.swift */; };
+		AD0F438124DA0E60009EEE15 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F438024DA0E60009EEE15 /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD0F435B24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobillium-ZoneZero-FirstCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0F435E24D9C9AD009EEE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0F436024D9C9AD009EEE15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD0F436224D9C9AD009EEE15 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AD0F436524D9C9AD009EEE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0F436724D9C9AE009EEE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0F436A24D9C9AE009EEE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0F436C24D9C9AE009EEE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0F437424D9CC7E009EEE15 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD0F437724D9DED6009EEE15 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		AD0F437924D9DF05009EEE15 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		AD0F437C24D9F4C9009EEE15 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD0F438024DA0E60009EEE15 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0F435824D9C9AD009EEE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0F435224D9C9AD009EEE15 = {
+			isa = PBXGroup;
+			children = (
+				AD0F435D24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase */,
+				AD0F435C24D9C9AD009EEE15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0F435C24D9C9AD009EEE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F435B24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0F435D24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F435E24D9C9AD009EEE15 /* AppDelegate.swift */,
+				AD0F436024D9C9AD009EEE15 /* SceneDelegate.swift */,
+				AD0F437F24DA0E55009EEE15 /* Model */,
+				AD0F437624D9DEB4009EEE15 /* Cells */,
+				AD0F437224D9C9D3009EEE15 /* Controller */,
+				AD0F437324D9C9E5009EEE15 /* View */,
+				AD0F437B24D9F4B6009EEE15 /* Constants */,
+				AD0F436724D9C9AE009EEE15 /* Assets.xcassets */,
+				AD0F436924D9C9AE009EEE15 /* LaunchScreen.storyboard */,
+				AD0F436C24D9C9AE009EEE15 /* Info.plist */,
+			);
+			path = "Mobillium-ZoneZero-FirstCase";
+			sourceTree = "<group>";
+		};
+		AD0F437224D9C9D3009EEE15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F436224D9C9AD009EEE15 /* RegisterViewController.swift */,
+				AD0F437424D9CC7E009EEE15 /* LoginViewController.swift */,
+				AD0F437924D9DF05009EEE15 /* MovieListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD0F437324D9C9E5009EEE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F436424D9C9AD009EEE15 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD0F437624D9DEB4009EEE15 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F437724D9DED6009EEE15 /* MovieCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AD0F437B24D9F4B6009EEE15 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F437C24D9F4C9009EEE15 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AD0F437F24DA0E55009EEE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F438024DA0E60009EEE15 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0F435A24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0F436F24D9C9AE009EEE15 /* Build configuration list for PBXNativeTarget "Mobillium-ZoneZero-FirstCase" */;
+			buildPhases = (
+				AD0F435724D9C9AD009EEE15 /* Sources */,
+				AD0F435824D9C9AD009EEE15 /* Frameworks */,
+				AD0F435924D9C9AD009EEE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobillium-ZoneZero-FirstCase";
+			productName = "Mobillium-ZoneZero-FirstCase";
+			productReference = AD0F435B24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0F435324D9C9AD009EEE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Catalina;
+				TargetAttributes = {
+					AD0F435A24D9C9AD009EEE15 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = AD0F435624D9C9AD009EEE15 /* Build configuration list for PBXProject "Mobillium-ZoneZero-FirstCase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0F435224D9C9AD009EEE15;
+			productRefGroup = AD0F435C24D9C9AD009EEE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0F435A24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0F435924D9C9AD009EEE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0F436B24D9C9AE009EEE15 /* LaunchScreen.storyboard in Resources */,
+				AD0F436824D9C9AE009EEE15 /* Assets.xcassets in Resources */,
+				AD0F436624D9C9AD009EEE15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0F435724D9C9AD009EEE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0F437524D9CC7E009EEE15 /* LoginViewController.swift in Sources */,
+				AD0F436324D9C9AD009EEE15 /* RegisterViewController.swift in Sources */,
+				AD0F435F24D9C9AD009EEE15 /* AppDelegate.swift in Sources */,
+				AD0F437824D9DED6009EEE15 /* MovieCell.swift in Sources */,
+				AD0F437D24D9F4C9009EEE15 /* Constants.swift in Sources */,
+				AD0F436124D9C9AD009EEE15 /* SceneDelegate.swift in Sources */,
+				AD0F438124DA0E60009EEE15 /* Movie.swift in Sources */,
+				AD0F437A24D9DF05009EEE15 /* MovieListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD0F436424D9C9AD009EEE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0F436524D9C9AD009EEE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0F436924D9C9AE009EEE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0F436A24D9C9AE009EEE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0F436D24D9C9AE009EEE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0F436E24D9C9AE009EEE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0F437024D9C9AE009EEE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4346WHXDQ6;
+				INFOPLIST_FILE = "Mobillium-ZoneZero-FirstCase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muratcelebi.Mobillium-ZoneZero-FirstCase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0F437124D9C9AE009EEE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4346WHXDQ6;
+				INFOPLIST_FILE = "Mobillium-ZoneZero-FirstCase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muratcelebi.Mobillium-ZoneZero-FirstCase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0F435624D9C9AD009EEE15 /* Build configuration list for PBXProject "Mobillium-ZoneZero-FirstCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0F436D24D9C9AE009EEE15 /* Debug */,
+				AD0F436E24D9C9AE009EEE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0F436F24D9C9AE009EEE15 /* Build configuration list for PBXNativeTarget "Mobillium-ZoneZero-FirstCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0F437024D9C9AE009EEE15 /* Debug */,
+				AD0F437124D9C9AE009EEE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0F435324D9C9AD009EEE15 /* Project object */;
+}
