@@ -26,10 +26,17 @@ class LoginViewController: UIViewController {
          emailTextField.text = email
          passwordTextField.text = password
         
+         emailTextField.text = ""
+         passwordTextField.text = ""
+        
          remindMeSwitch.isOn = false
          promotionsLabel.isHidden = true
          promotionsSwitch.isHidden = true
 
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
 
     @IBAction func remindMeSwitch(_ sender: UISwitch) {

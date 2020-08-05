@@ -37,10 +37,10 @@ class RegisterViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+
         guard let userName = emailTextField.text,
               let password = passwordTextField.text else { return }
-        
+
         if let loginVC = segue.destination as? LoginViewController {
             loginVC.email = userName
             loginVC.password = password

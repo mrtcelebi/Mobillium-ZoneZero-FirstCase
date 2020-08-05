@@ -18,9 +18,13 @@
 		AD0F437A24D9DF05009EEE15 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437924D9DF05009EEE15 /* MovieListViewController.swift */; };
 		AD0F437D24D9F4C9009EEE15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F437C24D9F4C9009EEE15 /* Constants.swift */; };
 		AD0F438124DA0E60009EEE15 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F438024DA0E60009EEE15 /* Movie.swift */; };
+		D43DA4D1CB8E26D6B82B83D9 /* Pods_Mobillium_ZoneZero_FirstCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265B9360E1F3B44D708AD1D3 /* Pods_Mobillium_ZoneZero_FirstCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265B9360E1F3B44D708AD1D3 /* Pods_Mobillium_ZoneZero_FirstCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobillium_ZoneZero_FirstCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E8B8700850E7AD97527B6E /* Pods-Mobillium-ZoneZero-FirstCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillium-ZoneZero-FirstCase.debug.xcconfig"; path = "Target Support Files/Pods-Mobillium-ZoneZero-FirstCase/Pods-Mobillium-ZoneZero-FirstCase.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA5EC6D74EE1EE9858F7AB5 /* Pods-Mobillium-ZoneZero-FirstCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobillium-ZoneZero-FirstCase.release.xcconfig"; path = "Target Support Files/Pods-Mobillium-ZoneZero-FirstCase/Pods-Mobillium-ZoneZero-FirstCase.release.xcconfig"; sourceTree = "<group>"; };
 		AD0F435B24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobillium-ZoneZero-FirstCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0F435E24D9C9AD009EEE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0F436024D9C9AD009EEE15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43DA4D1CB8E26D6B82B83D9 /* Pods_Mobillium_ZoneZero_FirstCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368963351727CDC934AAC429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				265B9360E1F3B44D708AD1D3 /* Pods_Mobillium_ZoneZero_FirstCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5033D1C9BB2FEBB563B1F6C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37E8B8700850E7AD97527B6E /* Pods-Mobillium-ZoneZero-FirstCase.debug.xcconfig */,
+				8CA5EC6D74EE1EE9858F7AB5 /* Pods-Mobillium-ZoneZero-FirstCase.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD0F435224D9C9AD009EEE15 = {
 			isa = PBXGroup;
 			children = (
 				AD0F435D24D9C9AD009EEE15 /* Mobillium-ZoneZero-FirstCase */,
 				AD0F435C24D9C9AD009EEE15 /* Products */,
+				5033D1C9BB2FEBB563B1F6C4 /* Pods */,
+				368963351727CDC934AAC429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0F436F24D9C9AE009EEE15 /* Build configuration list for PBXNativeTarget "Mobillium-ZoneZero-FirstCase" */;
 			buildPhases = (
+				5317A604DDB214B6405D39C7 /* [CP] Check Pods Manifest.lock */,
 				AD0F435724D9C9AD009EEE15 /* Sources */,
 				AD0F435824D9C9AD009EEE15 /* Frameworks */,
 				AD0F435924D9C9AD009EEE15 /* Resources */,
+				C7623DA17BCBAE854D327151 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +214,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5317A604DDB214B6405D39C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobillium-ZoneZero-FirstCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7623DA17BCBAE854D327151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillium-ZoneZero-FirstCase/Pods-Mobillium-ZoneZero-FirstCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobillium-ZoneZero-FirstCase/Pods-Mobillium-ZoneZero-FirstCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobillium-ZoneZero-FirstCase/Pods-Mobillium-ZoneZero-FirstCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD0F435724D9C9AD009EEE15 /* Sources */ = {
@@ -342,6 +411,7 @@
 		};
 		AD0F437024D9C9AE009EEE15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E8B8700850E7AD97527B6E /* Pods-Mobillium-ZoneZero-FirstCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +430,7 @@
 		};
 		AD0F437124D9C9AE009EEE15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA5EC6D74EE1EE9858F7AB5 /* Pods-Mobillium-ZoneZero-FirstCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
